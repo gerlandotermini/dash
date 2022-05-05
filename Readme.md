@@ -1,8 +1,6 @@
 # DaSh - Yet Another WordPress Skeleton Environment
 
-DaSh is an open source [WordPress](https://wordpress.org/) boilerplate configuration inspired by [these](https://deliciousbrains.com/install-wordpress-subdirectory-composer-git-submodule/) [two](https://deliciousbrains.com/wordpress-deployment-workflow-git/) articles posted a while ago on the Delicious Brains blog, and of course by Mark Jaquith's [post](https://markjaquith.wordpress.com/2012/05/26/wordpress-skeleton/) on how to make your own starter kit. Used in conjunction with our [Graduate Vagrant](https://gitlab.com/gccomms/vagrant) development environment, it enables you to deploy a new WordPress-based site in minutes. Test new features, code new cool plugins and themes, all without having to worry about the tedious prep steps.
-
-This project is proudly maintained by the Office of Communications and Marketing at [The Graduate Center, CUNY](https://www.gc.cuny.edu/) and released under the [MIT License](LICENSE).
+DaSh is an open source [WordPress](https://wordpress.org/) boilerplate configuration inspired by [these](https://deliciousbrains.com/install-wordpress-subdirectory-composer-git-submodule/) [two](https://deliciousbrains.com/wordpress-deployment-workflow-git/) articles posted a while ago on the Delicious Brains blog, and of course by Mark Jaquith's [post](https://markjaquith.wordpress.com/2012/05/26/wordpress-skeleton/) on how to make your own starter kit. Used in conjunction with [GT Vagrant](https://github.com/gerlandotermini/vagrant) development environment, it enables you to deploy a new WordPress-based site in minutes. Test new features, code new cool plugins and themes, all without having to worry about the tedious prep steps.
 
 ## Minimum System Requirements
 
@@ -12,7 +10,7 @@ Please refer to the [WordPress minimum requirements page](https://wordpress.org/
 
 We recommend using Git as it makes updating much easier. Simply clone the main repo into your web document root:
 
-`git clone -b master https://gitlab.com/gccomms/wordpress.git /var/www/html/`
+`git clone -b master https://github.com/gerlandotermini/dash.git /var/www/html/`
 
 Once the repo has been cloned, enter the directory with `cd /var/www/html/` and init the submodules:
 
