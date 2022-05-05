@@ -1,5 +1,7 @@
 # DaSh - Yet Another WordPress Skeleton Environment
 
+In loving memory of [Daniel Shure](https://www.legacy.com/us/obituaries/nytimes/name/daniel-shure-obituary?id=19817490).
+
 DaSh is an open source [WordPress](https://wordpress.org/) boilerplate configuration inspired by [these](https://deliciousbrains.com/install-wordpress-subdirectory-composer-git-submodule/) [two](https://deliciousbrains.com/wordpress-deployment-workflow-git/) articles posted a while ago on the Delicious Brains blog, and of course by Mark Jaquith's [post](https://markjaquith.wordpress.com/2012/05/26/wordpress-skeleton/) on how to make your own starter kit. Used in conjunction with [GT Vagrant](https://github.com/gerlandotermini/vagrant) development environment, it enables you to deploy a new WordPress-based site in minutes. Test new features, code new cool plugins and themes, all without having to worry about the tedious prep steps.
 
 ## Minimum System Requirements
