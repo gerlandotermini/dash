@@ -1,0 +1,4 @@
+[submodule "wp"]
+	path = wp
+	url = https://github.com/WordPress/WordPress
+	ignore = all

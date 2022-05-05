@@ -1,0 +1,29 @@
+# Apache config file
+.htaccess
+
+# Mac OS files
+.DS_Store
+
+# Development environment
+.vscode
+
+# Git submodules
+content/*
+!content/themes
+content/themes/*
+!content/themes/gradpress
+content/themes/gradpress/*
+!content/plugins
+content/plugins/*
+wp/*
+
+# WordPress files
+config.php
+sitemap.xml
+/wp-login.php
+/*.txt
+
+# Misc files
+*.log
+*.ini
+favicon.ico
