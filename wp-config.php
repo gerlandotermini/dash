@@ -31,7 +31,7 @@ define( 'FORCE_SSL_ADMIN', true );
 // Custom Content Directory
 define( 'WP_CONTENT_DIR', dirname( ABSPATH ) . '/content' );
 
-if ( !empty( $_SERVER[ 'HTTP_HOST' ] ) ) {
+if ( !empty( $_SERVER[ 'HTTP_HOST' ] ) && !defined( 'WP_CONTENT_URL' ) ) {
    define( 'WP_CONTENT_URL', 'https://' . $_SERVER[ 'HTTP_HOST' ] . '/content' );
 }
 
