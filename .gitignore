@@ -15,7 +15,6 @@ content/themes/*
 content/themes/gradpress/*
 !content/plugins
 content/plugins/*
-wp
 
 # WordPress files
 config.php
